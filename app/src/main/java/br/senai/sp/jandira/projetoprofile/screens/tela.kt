@@ -2,6 +2,7 @@ package br.senai.sp.jandira.projetoprofile.screens
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
+import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -96,7 +97,9 @@ fun Tela() {
                             .fillMaxWidth()
                             .padding(horizontal = 16.dp)
                     ) {
-                        Column(horizontalAlignment = Alignment.CenterHorizontally) {
+                        Column(
+                            horizontalAlignment = Alignment.CenterHorizontally
+                        ) {
                             Box(
                                 modifier = Modifier
                                     .size(48.dp)
